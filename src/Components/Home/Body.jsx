@@ -1,6 +1,7 @@
 import React from "react";
-import VideoContainer from "./VideoContainer";
 import SideBar from "./SideBar";
+import MainContainer from "./MainContainer";
+
 
 const Body = () => {
   return (
@@ -12,10 +13,11 @@ const Body = () => {
                 VideoContainer
             Footer
             */}
-
+      
       <SideBar />
-      <VideoContainer />
-      <h3>Body</h3>
+      
+      <MainContainer />
+ 
     </div>
   );
 };
